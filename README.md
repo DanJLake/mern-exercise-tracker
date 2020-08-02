@@ -1,3 +1,4 @@
+
 # MERN Exercise Tracker
 
 ## Technologies Utilized
@@ -31,3 +32,18 @@ Exercises can also be deleted from the list, removing the entry from the databas
 Allows creation of users by inputting username into a form and submitting.
 #### Edit Exercise
 Allows editing of existing exercises, contains the same form as the 'Create Exercise' component, but with the form data pre-filled with that existing in the database for the corresponding exercise.
+
+## Running the Application
+### Back-end
+From the project root:
+```
+cd backend
+nodemon server
+
+```
+
+### Front-end
+From the project root:
+```
+npm start
+```
